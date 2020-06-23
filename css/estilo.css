@@ -4,7 +4,6 @@
    background: #f0f0f0;
    border-top: solid #f0f0f0;
    border-bottom: solid #f0f0f0;
-  
 }
 
 .top-contato{
@@ -13,8 +12,6 @@
     padding-top: 10px;
     width: auto;
     height: auto;
-    
-   
 }
 
 .contato-menu li{
@@ -50,6 +47,21 @@
 }
 
 .logo{
+    display: inline-block;
     margin-left: 5rem;
     padding: 12px 0px;
+}
+
+.menu-nav{
+    position: absolute;
+    display: inline;
+    left: 45%;
+    margin-top: 30px;
+}
+
+.menu-nav li{
+    display: inline-block;
+    margin-left: 1rem;
+    vertical-align: middle;
+
 }
