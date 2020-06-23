@@ -40,7 +40,7 @@
     padding-left: 4px;
     font-family: monospace;
     color: #2095f4;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 1px
 }
 
@@ -69,13 +69,13 @@
 
 }
 .fundo-folder{
-    width: 100%;
-    height: 100%;
+    width: cover;
+    height: 550px;
     background: #D3D3D3;
 }
 
 .folder-home{
-    width: cover; height: 600px;
+    width: 100%; height: 500px;
     background-image: url(../imagem/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,8 +88,8 @@
     top:50%;
     font-size: 3.5em;
     text-align: center;
-    color: #fff;
-    font-weight: 700;
+    color: #FFFAFA;
+    font-weight: 800;
     width: 600px;
     opacity: 1;
     letter-spacing: 2px;
@@ -103,8 +103,8 @@
     top:80%;
     font-size: 24px;
     text-align: center;
-    color: #fff;
-    font-weight: 700;
+    color: #FFFAFA;
+    font-weight: 800;
     width: 600px;
     opacity: 1;
     letter-spacing: 2px;
@@ -116,6 +116,31 @@
     color: #41464b;
     text-align: center;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 800;
     margin: 20px auto 10px auto;
+}
+
+.secao-descricao{
+    position: relative;
+    padding-left: 5%;
+    left: 10%;
+    width: 720px;
+    height: 200px;
+    text-align: center;
+}
+
+.divisao{
+    width: 60px;
+    height: 10px;
+    background: linear-gradient(to right, #FF4040 , #002570) no-repeat;
+    margin: 0 auto 20px auto;
+}
+
+.texto-1{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    max-width: 700px;
 }
