@@ -1,0 +1,50 @@
+.top-menu{
+   width: auto; 
+   height: 80px;
+   background: #f0f0f0;
+   border-top: solid #f0f0f0;
+   border-bottom: solid #f0f0f0;
+  
+}
+
+.top-contato{
+    position: relative;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+    
+   
+}
+
+.contato-menu li{
+    display: inline;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 1rem;
+    padding-left: 5px;
+    font-family: monospace;
+}
+
+.info-dolar{
+    position: relative;
+    left: 700px;
+    bottom: 24px;
+    width: 300px;
+    height: auto;
+}
+
+.info-dolar li{
+    display: inline;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 1rem;
+    padding-left: 5px;
+    font-family: monospace;
+    color: #2095f4;
+    font-weight: 600;
+}
+
+a{
+    margin-left: 1rem;
+}
