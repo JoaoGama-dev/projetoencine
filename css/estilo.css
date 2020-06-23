@@ -21,6 +21,7 @@
     margin-left: 1rem;
     padding-left: 5px;
     font-family: monospace;
+    letter-spacing: 2px;
 }
 
 .info-dolar{
@@ -36,10 +37,11 @@
     line-height: 25px;
     text-align: center;
     margin-left: 1rem;
-    padding-left: 5px;
+    padding-left: 4px;
     font-family: monospace;
     color: #2095f4;
     font-weight: 600;
+    letter-spacing: 1px
 }
 
 .info-siganos{
@@ -57,11 +59,63 @@
     display: inline;
     left: 45%;
     margin-top: 30px;
+    
 }
 
 .menu-nav li{
     display: inline-block;
-    margin-left: 1rem;
+    margin-left: 2rem;
     vertical-align: middle;
 
+}
+.fundo-folder{
+    width: 100%;
+    height: 100%;
+    background: #D3D3D3;
+}
+
+.folder-home{
+    width: cover; height: 600px;
+    background-image: url(../imagem/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo-1{
+    position: absolute;
+    padding: 40px;
+    left: 18%;
+    top:50%;
+    font-size: 3.5em;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    width: 600px;
+    opacity: 1;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.titulo-2{
+    position: absolute;
+    padding:50px;
+    left: 18%;
+    top:80%;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    width: 600px;
+    opacity: 1;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+
+.titulo-3{
+    color: #41464b;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px auto 10px auto;
 }
