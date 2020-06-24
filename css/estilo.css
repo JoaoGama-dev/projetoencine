@@ -1,5 +1,11 @@
+/* cabeçalho*/
+.corpo-tamanho{
+    max-width: 100%;
+    height: 100%;
+}
+
 .top-menu{
-   width: auto; 
+   width: 100%; 
    height: 80px;
    background: #f0f0f0;
    border-top: solid #f0f0f0;
@@ -10,7 +16,7 @@
     position: relative;
     padding-right: 20px;
     padding-top: 10px;
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
@@ -39,7 +45,7 @@
     margin-left: 1rem;
     padding-left: 4px;
     font-family: monospace;
-    color: #2095f4;
+    color: #666666;    
     font-weight: 800;
     letter-spacing: 1px
 }
@@ -59,17 +65,21 @@
     display: inline;
     left: 45%;
     margin-top: 30px;
-    
 }
 
 .menu-nav li{
     display: inline-block;
     margin-left: 2rem;
-    vertical-align: middle;
-
+    vertical-align: center;
+    font-size: 16px;
+    font-family: monospace;
+    color: #666666;
+    font-weight: 600;
 }
+/*conteúdo principal*/
+
 .fundo-folder{
-    width: cover;
+    width: 100%;
     height: 550px;
     background: #D3D3D3;
 }
@@ -79,6 +89,7 @@
     background-image: url(../imagem/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .titulo-1{
@@ -88,8 +99,8 @@
     top:50%;
     font-size: 3.5em;
     text-align: center;
-    color: #FFFAFA;
-    font-weight: 800;
+    color:#E8E8E8;
+    font-weight: 900;
     width: 600px;
     opacity: 1;
     letter-spacing: 2px;
@@ -103,7 +114,7 @@
     top:80%;
     font-size: 24px;
     text-align: center;
-    color: #FFFAFA;
+    color:#E8E8E8;
     font-weight: 800;
     width: 600px;
     opacity: 1;
@@ -139,8 +150,44 @@
 .texto-1{
     text-align: center;
     font-size: 15px;
+    font-family:monospace ;
     line-height: 1.5;
     padding-bottom: 40px;
     margin: 0 auto;
     max-width: 700px;
+}
+/*conteúdo principal parte2*/
+
+.secao-passos{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.passo1,.passo2,.passo3,.passo4{
+    display: block;
+    width: 220px;
+    height: 300px;
+    padding: 10px 10px 20px 10px;
+    margin-left: 10px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.passo1 h5, .passo2 h5, .passo3 h5, .passo4 h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #867f7f;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.texto-passo1,.texto-passo2,.texto-passo3,.texto-passo4{
+    font-size: 15px;
+    color: #867f7f;
+    font-family: monospace;
+    padding-top:10px ;
 }
