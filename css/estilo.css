@@ -50,10 +50,6 @@
     letter-spacing: 1px
 }
 
-.info-siganos {
-    margin-left: 1rem;
-}
-
 .logo {
     display: inline-block;
     margin-left: 5rem;
@@ -65,6 +61,18 @@
     display: inline;
     left: 45%;
     margin-top: 30px;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    color: #666666;
+}
+
+.menu-nav a:hover{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    transition: 0.5s;
 }
 
 .menu-nav li {
@@ -198,10 +206,51 @@
 }
 
 [data-animacao="bottom"] {
-    transform: translate3d(0, 60px, 0);    
+    transform: translate3d(0, 60px, 0); 
 }
 
 [data-animacao].animacao {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
+}
+
+/*roda-pe*/
+
+footer{
+    width: auto;
+    height: 220px;
+    background: linear-gradient(to right,#252525,snow) no-repeat;
+}
+
+.footer1 {
+    position: relative;
+    display: inline-block;
+    width: 240;
+    height: 162px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.footer1 p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-top: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5rem;
+    color: #f7f7f7;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.copy{
+    position: relative;
+    display: block;
+    text-align: center;
+    color: #f7f7f7;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 300;
 }
