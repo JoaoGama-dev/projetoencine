@@ -215,6 +215,60 @@
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
+/* formulario contato*/
+
+.tituloform {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20%;
+    font-size: 2em;
+}
+
+.tituloform:hover {
+    text-shadow: #E8E8E8 1px 1px 2px
+}
+
+.formulario {
+    width: 940px;
+    margin: auto;
+}
+
+form {
+    margin: 20% 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    font-family: ONE DAY ;
+    margin-bottom: 10px;
+    color:#E8E8E8
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 18px;
+    color:#E8E8E8 ;
+    background: #008B45;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color:#00EE76;
+    transform: scale(1.1);
+}
 
 /*roda-pe*/
 

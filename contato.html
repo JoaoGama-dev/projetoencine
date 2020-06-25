@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html  lang="pt-br">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../projetoencine/css/reset.css">
+    <link rel="stylesheet" href="../projetoencine/css/estilo.css">
+<head>
+
+</head>
+<body>
+    <header>
+        <div class="top-menu">
+            <div class="top-contato">
+                <ul class="contato-menu">
+                    <li>✉ E-mail: info@box4buy.com</li>
+                    <li>Whatsapp: (770)8996-3232</li>
+                </ul>
+            </div>        
+            <div class="info-dolar">
+                <ul>
+                    <li>Dolar Comercial: R$5,26</li>
+                </ul>
+            </div>
+        </div>    
+        <nav>
+            <div class="container-menu">
+                <a class="logo"><img src="../projetoencine/imagem/logo.png" width="200px" height="44px" alt="logo"></a>
+                <ul class="menu-nav">
+                    <li><a href="../projetoencine/index.html">Home</a></li>
+                    <li><a>Sobre</a></li>
+                    <li><a href="../projetoencine/contato.html">Contato</a></li>
+                </ul>
+            </div>    
+        </nav>
+    </header>
+    <main class="formulario">
+        <h2 class="tituloform">Preencha nosso Formulário</h2>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seu email@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+            <label for="mensagens">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagens" class="input-padrao" required></textarea>
+        <fieldset>    
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-email"><input type="radio" value="email" name="contato" id="radio-email">Email</label>
+                
+                <label for="radio-telefone"><input type="radio" value="telefone" name="contato" id="radio-telefone">Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" value="whatsapp" name="contato" id="radio-whatsapp" checked>Whatsapp</label>
+        </fieldset>
+        <fieldset>
+            <legend> Gostaria de agendar uma visita?</legend>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+            </select>
+        </fieldset>
+        <label><input type="checkbox" checked>Gostaria  de receber nossas novidades por email?</label>
+        <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+        </main>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
