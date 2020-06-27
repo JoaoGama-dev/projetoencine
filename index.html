@@ -1,8 +1,22 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../projetoencine/css/reset.css">
-    <link rel="stylesheet" href="../projetoencine/css/estilo.css">
+    <!-- 
+        Encontrei diversos bugs no projeto, mas todos são tranquilos de corrigir
+        fiz as correções devidas aqui no index para tu ter uma referência e implementar essas correções na pagina de contato
+        tendo isso em mente a tua tarefa é a seguinte:
+        1 - fazer as correções necessárias
+        2 - implementar as demais paginas no site
+        3 - procurar melhorias no design da pagina, pois acredite da pra melhorar
+        4 - A função de animação ela vai funcionar a contento se implementada em um link ou botão que chama um evento de click
+        5 - O site base possui uma calculadora, cuja função e´calcular o preço do frete de uma encomenda baseado no peso
+        quero que tente implementar essa calculadora com Javascript
+     -->
+    <!-- Links de CSS declarados de forma incorreta -->
+    <!-- <link rel="stylesheet" href="../projetoencine/css/reset.css">
+    <link rel="stylesheet" href="../projetoencine/css/estilo.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
 <head>
     <title>Box4Buy(reload)</title>
 </head>
@@ -23,10 +37,12 @@
         </div>    
         <nav>
             <div class="container-menu">
-                <a class="logo"><img src="../projetoencine/imagem/logo.png" width="200px" height="44px" alt="logo"></a>
+                <!-- <a class="logo"><img src="../projetoencine/imagem/logo.png" width="200px" height="44px" alt="logo"></a> -->
+                <!-- Ainda usando os atributos width e height, sendo que pode criar uma classe no css para dimensionar a imagem -->
+                <a class="logo"><img src="imagem/logo.png" width="200px" height="44px" alt="logo"></a>
                 <ul class="menu-nav">
-                    <li><a href="../projetoencine/index.html">Home</a></li>
-                    <li><a href="../projetoencine/contato.html">Contato</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </div>    
         </nav>
@@ -52,17 +68,17 @@
             <p class="texto-passo1">Cadastre-se gratuitamente para obter essa exclusividade.</p>
         </div>
         <div class="passo2">
-            <img src="../projetoencine/imagem/passo2.jpg" width="200" height="150">
+            <img src="imagem/passo2.jpg" width="200" height="150">
             <h5>Segundo Passo</h5>
             <p class="texto-passo2">Compre em qualquer loja ONLINE e forneceremos o ENDEREÇO.</p>
         </div>
         <div class="passo3">
-            <img src="../projetoencine/imagem/passo3.jpg" width="200" height="150">
+            <img src="imagem/passo3.jpg" width="200" height="150">
             <h5>Terceiro Passo</h5>
             <p class="texto-passo3"> Armazenamos sua compra sem custo algum.</p>
         </div>
         <div class="passo4">
-            <img src="../projetoencine/imagem/passo4.jpg" width="200" height="150">
+            <img src="imagem/passo4.jpg" width="200" height="150">
             <h5>Ultimo passo</h5>
             <p class="texto-passo4">Enviamos suas compras conforme sua solicitação.</p>
         </div>
@@ -70,11 +86,11 @@
     </section>
     <footer>
         <div class="footer1">
-            <img src="../projetoencine/imagem/logo.png" alt="logo" width="200" height="45">
+            <img src="imagem/logo.png" alt="logo" width="200" height="45">
             <p>É uma empresa de redirecionamento de encomendas.</p>
         </div>
         <div class="copy">Copyrights © 2020 All Rights Reserved</div>
     </footer>
-    <script src="../projetoencine/javascript/script.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 </html>

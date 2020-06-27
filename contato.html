@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html  lang="pt-br">
     <meta charset="utf-8">
+    <!-- Mesmo problema de links quebrados da index -->
     <link rel="stylesheet" href="../projetoencine/css/reset.css">
     <link rel="stylesheet" href="../projetoencine/css/estilo.css">
 <head>
@@ -23,6 +24,8 @@
         </div>    
         <nav>
             <div class="container-menu">
+                <!-- Links também estão quebrados por conta de erro na declaração dos mesmos 
+                    e imagem com atributos width e height na tag ao inves de usar classe CSS -->
                 <a class="logo"><img src="../projetoencine/imagem/logo.png" width="200px" height="44px" alt="logo"></a>
                 <ul class="menu-nav">
                     <li><a href="../projetoencine/index.html">Home</a></li>
@@ -45,6 +48,7 @@
 
             <label for="mensagens">Mensagem</label>
             <textarea cols="70" rows="10" id="mensagens" class="input-padrao" required></textarea>
+            <!-- Fieldsets são interessantes, mas pouco usados -->
         <fieldset>    
                 <legend>Como prefere nosso contato?</legend>
                 <label for="radio-email"><input type="radio" value="email" name="contato" id="radio-email">Email</label>
@@ -64,6 +68,7 @@
         </main>
 <footer>
     <div class="footer1">
+        <!-- Mesmo problema de tags anteriores -->
     <img src="../projetoencine/imagem/logo.png" alt="logo" width="200" height="45">
     <p>É uma empresa de redirecionamento de encomendas.</p>
     </div>
