@@ -227,25 +227,33 @@ ul li:nth-child(3) a:hover .fa {
 h2 {
     text-align: center;
     position: absolute;
-    padding-top: 20px;
-    bottom: 40%;
-    left: 20%;
+    padding-top: 50px;
+    bottom: 20%;
+    left: 23%;
     font-size: 26px;
     font-family: consolas;
+    font-weight: bold;
     text-transform: uppercase;
-    color: #838B8B;    ;
+    color: #41464b;
+    opacity: 0.5;
 }
 
 .home-cont {
+    justify-content: center;
     height: 300px;
-    width: 800px;
-    position: absolute;
+    width: auto;
+    display: flex;
     top: 80%;
 }
 
 .img-home {
-    width:700px;
+    padding-top: 20px;
+    top: 50%;
+    left: 25%;
+    width:auto;
     height:350px;
+    position: absolute;
+    opacity: 0.5;
 }
 
 /*conteúdo principal parte2*/
