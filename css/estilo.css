@@ -236,6 +236,18 @@ h2 {
     color: #838B8B;    ;
 }
 
+.home-cont {
+    height: 300px;
+    width: 800px;
+    position: absolute;
+    top: 80%;
+}
+
+.img-home {
+    width:700px;
+    height:350px;
+}
+
 /*conteúdo principal parte2*/
 
 
