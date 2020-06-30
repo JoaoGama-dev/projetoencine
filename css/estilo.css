@@ -334,7 +334,12 @@ ul li:nth-child(3) a:hover .fa {
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
+/* conteudo principal parte3*/
 
+.display-vantagens {
+    height: 500px;
+
+}
 /*sobre-card's*/
 
 .img-passo1 {
