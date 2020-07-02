@@ -51,7 +51,12 @@
             <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
         </ul>
     </nav>
-    <footer class="rodape">
+    <div class="calculadora">
+        <h1 class="titulo-calculadora">Vamos calcular</h1>
+        <input oninput="conversorkg (this.value)" onchange="conversorkg(this.value)" type="number">
+        <p>Real:<span id="output"></span></p>
+    </div>
+        <footer class="rodape">
         <div class="caixa-1r">
             <img class="logo-rodape" src="imagem/logo.png">
             <p>Empresa de redirecionamento de encomendas</p>
@@ -69,5 +74,11 @@
         </div>
         <h5 class="copy">Copyrights © 2020 All Rights Reserved</h5>    
     </footer>
+    <script>
+        function conversorkg(numValue)
+        {
+            document.getElementById("output").innerHTML = numValue*7.50/1.000;
+        }    
+    </script>
 </body>
 </html>
