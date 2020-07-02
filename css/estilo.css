@@ -1,7 +1,6 @@
 html,body {
     width: auto;
     height: auto;
-
 }
 /* cabeçalho*/
 .caixa-geral {
@@ -50,7 +49,7 @@ h6 {
     margin: 0;
     padding-top: 25px;
     box-sizing: border-box;
-    left: 5%;
+    left: 20%;
     top: 20%;
 }
 
@@ -87,11 +86,6 @@ h6 {
     height: 2px;
     background: linear-gradient(90deg, transparent,#03e9f4);
     animation: anima1 1s linear infinite;
-}
-
-.menu-bar:nth-child(1){
-    filter: hue-rotate(290deg);
-
 }
 
 @keyframes anima1 
@@ -309,7 +303,7 @@ ul li:nth-child(3) a:hover .fa {
 .conteudo-principal {
     margin-top: 5%;
     width: auto;
-    height: 500px;
+    height: 800px;
     font-family: consolas;
 }
 
@@ -334,12 +328,6 @@ ul li:nth-child(3) a:hover .fa {
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
-/* conteudo principal parte3*/
-
-.display-vantagens {
-    height: 500px;
-
-}
 /*sobre-card's*/
 
 .img-passo1 {
@@ -348,6 +336,8 @@ ul li:nth-child(3) a:hover .fa {
 }
 
 .container {
+    padding-left: 5px;
+    padding-right: 5px;
     margin-top: 4% ;
     position: relative;
     display: flex;
@@ -440,6 +430,25 @@ ul li:nth-child(3) a:hover .fa {
     color: #fff;
 }
 
+#setatop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background: #e4405f;
+    color: #FFFFF0;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    outline: none;
+    cursor: pointer;
+}
+
+#setatop:active {
+    background: #EE0000;
+}
+
 /* formulario contato*/
 
 .tituloform {
@@ -498,48 +507,38 @@ form label, form legend {
 }
 
 /*roda-pe*/
-
-footer{
-    width: auto;
-    height: 220px;
-    background: linear-gradient(to right,#252525,snow) no-repeat;
+.rodape {
+    padding-top: 10px;
+    margin-top: 50px;
+    height: 200px;
+    background: #41464b;
+    font-family: consolas;
+    text-transform: uppercase;
 }
 
-.img-rodape {
-    width: 200px;
-    height: 45px;
-
-}
-
-.footer1 {
-    position: relative;
-    display: inline-block;
-    width: 240;
-    height: 162px;
+.caixa-1r {
     padding: 15px;
-    margin-left: 10px;
+    color: #e8e8e8;
+    font-weight: bold;
+    font-size: 17px;
 }
 
-.footer1 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-top: 10px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    line-height: 1.5rem;
-    color: #f7f7f7;
-    font-family: monospace;
-    font-size: 15px;
-    font-weight: 300;
+.contato-caixa {
+    padding: 15px;
+    color: #e8e8e8;
+    font-weight: bold;
+    font-size: 17px;
 }
 
-.copy{
-    position: relative;
-    display: block;
+.logo-rodape {
+    width: 200px;
+    height: 44px;
+}
+
+.copy {
     text-align: center;
-    color: #f7f7f7;
-    font-family: monospace;
-    font-size: 15px;
-    font-weight: 300;
+    justify-content: center;
+    color: #64707b;
+    font-weight: bold;
+    font-size: 17px;
 }
