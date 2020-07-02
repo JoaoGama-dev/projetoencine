@@ -24,16 +24,6 @@ html,body {
     height: 44px;
 }
 
-h6 {
-    position: absolute;
-    left: 76%;
-    padding-top: 6px ;
-    font-size: 18px;
-    font-family: consolas;
-    color:#FFFFF0;
-    text-transform: uppercase;
-}
-
 .lista-icons {
     position: absolute;
     margin: 0;
@@ -309,7 +299,6 @@ ul li:nth-child(3) a:hover .fa {
 
 .sobre-texto {
     padding: 70px 70px;
-
 }
 
 .p-1 {
@@ -346,7 +335,6 @@ ul li:nth-child(3) a:hover .fa {
 
 .container card-1 {
     position: relative;
-
 }
 
 .container .card-1 .face {
@@ -356,7 +344,6 @@ ul li:nth-child(3) a:hover .fa {
 } 
 
 .container .card-1 .face.face1 {
-
     position: relative;
     background:#41464b;
     display: flex;
@@ -449,6 +436,102 @@ ul li:nth-child(3) a:hover .fa {
     background: #EE0000;
 }
 
+/*pagina-pagamento*/
+
+.caixa-pagamentogeral {
+    box-sizing: border-box;
+    font-family: consolas;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    min-height:100vh ;
+}
+
+.tit-pagamento {
+    font-size: 24px;
+    text-align: center;
+    color: #f7f7f7;
+    font-family: consolas;
+    text-transform: uppercase;
+    background: #222222;
+    padding: 20px;
+}
+
+.container-pagamento {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.container-pagamento .card-pg {
+    position: relative;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    width: 45%;
+    margin: 30px 0;
+}
+
+.container-pagamento .card-pg .img-pg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #333;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;   
+}
+
+.container-pagamento .card-pg:hover .img-pg {
+    width: 150px;
+    height: 150px;
+    right: -75px;
+    top: calc(50% - 75px);
+    transition: 0.5s ease-in-out;
+    background: #FF4040;
+}
+
+.container-pagamento .card-pg .img-pg img {
+    max-width: 100px;
+    transition: 0.5s ease-in-out;
+}
+
+.container-pagamento .card-pg:hover .img-pg img {
+    max-width: 75px;
+}
+
+.container-pagamento .card-pg .cont-pagamento {
+    position: absolute;
+    right: 0;
+    width: calc(100% - 160px);
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+.container-pagamento .card-pg .cont-pagamento h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.geral-img {
+    width: 100px;
+    height: 100px;
+}
+
 /* formulario contato*/
 
 .tituloform {
@@ -509,7 +592,6 @@ form label, form legend {
 /*roda-pe*/
 .rodape {
     padding-top: 10px;
-    margin-top: 50px;
     height: 200px;
     background: #41464b;
     font-family: consolas;
