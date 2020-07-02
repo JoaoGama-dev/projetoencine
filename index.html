@@ -142,16 +142,34 @@
             </div>                
         </div>
         <section class="display-vantagens">
+            <h3 class="titulo-3">Duvidas</h3>
             <div class="caixa-vantagens">
-                <div class="atendimento">
-
+                <div class="pagamento">
+                    <img class="pagamento-img" src="imagem/paypal.png.png">
+                    <h4>Pagamento</h4>
+                    <p>Aceitamos pagamento via Paypal, depósito bancario e demais bandeiras de cartão.</p>
                 </div>
                 <div class="envio">
-                    <i><i class="fa fa-plane" aria-hidden="true"></i></i>
-
+                    <img class="envio-rocket" src="imagem/rocket.png.png">
+                    <h4>Envio</h4>
+                    <p>O envio é preciso e inteligente, quando se der conta já estará recebendo.</p>
                 </div>
             </div>
         </section>
+        <button id="setatop">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </button>
     </main>
+    <script>
+       const topscroll = document.querySelector("#setatop");
+       topscroll.addEventListener("click", function(){
+           window.scrollTo({
+               top: 0,
+               left: 0,
+               behavior: "smooth"
+           });
+       });      
+    </script>
+
 </body>
 </html>
