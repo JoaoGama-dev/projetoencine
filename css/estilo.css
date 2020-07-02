@@ -533,18 +533,21 @@ ul li:nth-child(3) a:hover .fa {
 }
 /*calculadora*/
 .calculadora {
+    background: #f7f7f7;
     padding-top: 20%;
     text-align: center;    
     width: auto;
-    height: 800px;
+    height: 500px;
     box-sizing: border-box;
+    border: solid;
 }
 .titulo-calculadora {
     font-size: 20px;
+    padding-bottom: 20px;
     font-weight: bold;
     font-family: consolas;
-
 }
+
 /* formulario contato*/
 
 .tituloform {
